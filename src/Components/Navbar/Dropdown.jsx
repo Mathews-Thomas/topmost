@@ -37,7 +37,7 @@ function Dropdown() {
               <DoneIcon /> {service.type}
             </li>
           ))}
-           <Link className="text-[#652d91] flex my-3 uppercase p-1 items-center text-sm" to="/services" onClick={() => props.onCloseDropdown()}>view more</Link>
+           <Link className="text-[#652d91] flex my-3 uppercase p-1 items-center text-sm" to="/services">view more</Link>
         </ul>
       </div>
       <div className="my-3 w-full">
