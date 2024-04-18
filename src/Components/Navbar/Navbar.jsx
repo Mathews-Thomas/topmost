@@ -68,7 +68,7 @@ export default function Navbar({scrollToBookAppointment}) {
         </ul>
       </div>
       {/*onCloseDropdown for passing props to close the dropdown */}
-      {openDropdown && <Dropdown onCloseDropdown={handleOpenDropdown}/>} 
+      {openDropdown && <Dropdown/>} 
     </nav>
   );
 }
